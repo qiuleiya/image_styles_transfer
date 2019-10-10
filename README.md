@@ -4,4 +4,4 @@
    图像风格转换是最近新兴起的一种基于深度学习的技术，卷积神经网络所带来的对图像特征的高层特征的抽取使得风格和内容的分离成为了可能。本文是基于VGG-19模型，使用已经训练好的VGG-19模型的各层的权重信息， 通过加载VGG参数提取出图像的特征图谱即feature map，计算content loss，计算style loss，计算总体loss，进行优化函数，构建模型图，训练模型，通过训练好的模型，最终完成内容图像和风格图像的风格迁移。系统实现指定一幅输入图像作为基础图像，也被称做内容图像；同时指定另一幅或多幅图像作为希望得到的图像风格，算法在保证内容图像的结构的同时，将图像风格进行转换，使得最终输出的合成图像呈现出输入图像内容和风格的结合。
 
 ## 图片风格迁移图片展示
-[image_styles_transfer](https://qiuleiya.github.io/image_styles_transfer/main.html)
+[image_styles_transfer](https://qiuleiya.github.io/image_styles_transfer/index.html)
